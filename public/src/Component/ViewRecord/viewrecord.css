@@ -1,0 +1,84 @@
+.actionContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+.actionBtn{
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    margin-right: 20px;
+}
+.btns{
+    background-color: #BAB8B8;
+    width: 6.375rem;
+    height: 4.3125rem;
+    margin-left: 1.3rem;
+}
+.searchbox{
+    background-color: #BAB8B8;
+    width: 21.5625rem;
+    height: 4.1125rem;
+    margin-left: 1.3rem;
+}
+.icon{
+    background-color: #BAB8B8;
+    width: 6.375rem;
+    height: 4.3125rem;
+    margin-left: 1.3rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:90vh
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pagBtn{
+    margin-left: 5px;
+    font-size: larger;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #BAB8B8
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: #9b9b9b
+  }
+th{
+    text-align: start;
+}
+td{
+    border: 1px solid black;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
